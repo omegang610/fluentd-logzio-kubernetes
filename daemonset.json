@@ -49,6 +49,7 @@
               }
             ],
             "image": "_YOUR_DOCKER_IMAGE_TAG_",
+            "imagePullPolicy": "Always",
             "name": "fluentd-logzio",
             "volumeMounts": [
               {
