@@ -37,18 +37,18 @@
               },
               {
                 "name": "LOGZIO_URL",
-                "value": "_YOUR_ENDPOINT_URL_"
+                "value": "https://listener.logz.io:8071"
               },
               {
                 "name": "LOGZIO_TOKEN",
-                "value": "_YOUR_TOKEN_"
+                "value": "vtczMyFXLTPjgufIAwuFLXiBqkoLCPHq"
               },
               {
                 "name": "LOGZIO_TYPE",
-                "value": "_YOUR_LOG_TYPE_"
+                "value": "my_type"
               }
             ],
-            "image": "_YOUR_DOCKER_IMAGE_TAG_",
+            "image": "omegang/fluentd-logzio-kubernetes",
             "imagePullPolicy": "Always",
             "name": "fluentd-logzio",
             "volumeMounts": [
