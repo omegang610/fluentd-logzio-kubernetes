@@ -2,6 +2,7 @@
   "apiVersion": "extensions/v1beta1",
   "kind": "DaemonSet",
   "metadata": {
+    "namespace": "kube-system",
     "name": "fluentd-logzio",
     "labels": {
       "tier": "monitoring",
@@ -17,7 +18,7 @@
         }
       },
       "spec": {
-        "serviceAccount": "fluentd"
+        "serviceAccount": "fluentd",
         "hostPID": true,
         "hostIPC": true,
         "hostNetwork": true,
